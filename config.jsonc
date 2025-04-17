@@ -1,0 +1,23 @@
+{
+  "name": "bar1",
+  "layer": "top",
+  "output": "Virtual-1",
+  "modules-center": ["hyprland/workspaces","hyprland/window"],
+  "modules-right": ["clock",],
+
+  "hyprland/workspaces": {
+    "name": "work",
+    "format": "{icon}",
+    "format-icons": {
+      "active": "",
+      "default": "",
+      "empty": ""
+    },
+    "persistent-workspaces": {
+      "*": [ 1,2,3,4,5 ]
+    }
+  },
+  "clock": {
+    "format": "   {:%I:%M %p} "
+  }
+}
