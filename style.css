@@ -26,3 +26,7 @@
 * {
   border-radius: 10px;
 }
+
+.modules-center, .modules-right {
+  margin: 10 10 0 0;
+}
